@@ -22,6 +22,8 @@ app.get("/", (req, res) => {
       logo: "https://i.imgur.com/PLfKZrR.png",
       price: 114,
       nextPrice: 120,
+      market: "EURONEXT PARIS",
+      sector: "Industrie",
     },
     {
       id: 2,
@@ -29,6 +31,8 @@ app.get("/", (req, res) => {
       logo: "https://i.imgur.com/AliKjXr.png",
       price: 87,
       nextPrice: 90,
+      market: "EURONEXT PARIS",
+      sector: "Santé",
     },
     {
       id: 3,
@@ -36,6 +40,8 @@ app.get("/", (req, res) => {
       logo: "https://i.imgur.com/hHLBfKt.png",
       price: 19,
       nextPrice: 15,
+      market: "DEUTSCHE BOERSE AG",
+      sector: "Télécom",
     },
     {
       id: 4,
@@ -43,6 +49,8 @@ app.get("/", (req, res) => {
       logo: "https://i.imgur.com/kQnGM6p.png",
       price: 410,
       nextPrice: 400,
+      market: "LONDON STOCK EXCHANGE",
+      sector: "Consommation de base",
     },
     {
       id: 5,
@@ -50,6 +58,8 @@ app.get("/", (req, res) => {
       logo: "https://i.imgur.com/w59TeaS.png",
       price: 14,
       nextPrice: 40,
+      market: "BOLSA DE MADRID",
+      sector: "Énergie",
     },
   ]);
 });
