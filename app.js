@@ -19,14 +19,14 @@ app.get("/", (req, res) => {
     items: [
       {
         id: 1,
-        name: "Airbus",
-        logo: "https://i.imgur.com/PLfKZrR.png",
+        title: "Airbus",
+        imageUrl: "https://i.imgur.com/PLfKZrR.png",
         price: 114,
       },
       {
         id: 2,
-        name: "Sanofi",
-        logo: "https://i.imgur.com/AliKjXr.png",
+        title: "Sanofi",
+        imageUrl: "https://i.imgur.com/AliKjXr.png",
         price: 87,
       },
     ],
