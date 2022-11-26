@@ -28,6 +28,24 @@ app.get("/", (req, res) => {
       imageUrl: "https://i.imgur.com/AliKjXr.png",
       price: 87,
     },
+    {
+      id: 3,
+      title: "Deutsche Telekom",
+      imageUrl: "https://i.imgur.com/hHLBfKt.png",
+      price: 19,
+    },
+    {
+      id: 4,
+      title: "Unilever",
+      imageUrl: "https://i.imgur.com/kQnGM6p.png",
+      price: 410,
+    },
+    {
+      id: 5,
+      title: "Repsol",
+      imageUrl: "https://i.imgur.com/w59TeaS.png",
+      price: 14,
+    },
   ]);
 });
 
