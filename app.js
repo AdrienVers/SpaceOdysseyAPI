@@ -162,7 +162,7 @@ app.get("/bodies/iss", (req, res) => {
 		distance: "408 km",
 		map: "https://i.imgur.com/ZPTOKbA.png",
 		description:
-			"Laboratoire en orbite terrestre, occupé en permanence par un équipage international qui se consacre à la recherche scientifique dans l'environnement spatial dans des domaines tels que la biologie, la physique et la météorologie.",
+			"Laboratoire en orbite terrestre, occupé en permanence par un équipage international qui se consacre à la recherche scientifique en biologie, physique et météorologie.",
 	});
 });
 
